@@ -15,6 +15,7 @@
 | [openscientist-io/openscientist](https://github.com/openscientist-io/openscientist) ✓ | ۹۸ (۱۸ نوامبر) | Apache-2.0 | همکار علمی ایجنتی متن‌باز (دانشگاه واشنگتن در سنت‌لوئیس، Broad، برکلی)، مقاله Nature Medicine ۱۶ نوامبر ۲۰۲۶. روی کتابخانه K-Dense سوار است؛ با Claude Code ساخته شده و در مقاله از Claude Sonnet 4.5 استفاده شده. قید: خودهاستی رایگان نیست (Docker + اعتبار ارائه‌دهنده مدل)؛ ارزیابی فقط ۵ مطالعه موردیِ خود تیم است، بدون اعتبارسنجی مستقل. |
 | [nrflynn2/ml-drug-discovery](https://github.com/nrflynn2/ml-drug-discovery) ✓ | — (همراه کتاب) | — | کد همراه کتاب *Machine Learning for Drug Discovery* — کتاب شماره ۱ فهرست ۵۰ کتاب ۲۰۲۵–۲۰۲۶ تو (امتیاز ۹۴). |
 | Arc Institute — antiGen و Germinal Multi ✓ (ابزار) | — | — | دو ابزار ۱۷ نوامبر ۲۰۲۶: antiGen پیش‌بینی جهش‌های آینده ویروس از درخت فیلوژنتیک؛ Germinal Multi طراحی یک آنتی‌بادی علیه چند واریانت. هر دو رایگان روی GitHub با دو پیش‌چاپ bioRxiv. **مسیر دقیق ریپو در بریف ثبت نشده** — از صفحه رسمی شروع کن: arcinstitute.org/news/antigen-and-germinal-multi. قید: پیش‌چاپ‌اند، نه داوری‌شده. |
+| [googlecreativelab/teachablemachine-community](https://github.com/googlecreativelab/teachablemachine-community) ✓ | ۱٬۷۵۱ (۲۰ نوامبر) | Apache-2.0 | کتابخانه‌های **Google Teachable Machine** — ابزار وب رایگان بدون‌کد برای طبقه‌بندی تصویر/صدا/ژست (transfer learning روی MobileNet و...). خروجی TF.js / TensorFlow / TFLite / Coral. ربط: پروتوتایپ سریع طبقه‌بندی تصویر پزشکی (مثلاً رادیوگرافی/تصویر سلولی) در چند دقیقه، بدون کد. قیدها: فقط طبقه‌بندی است — نه detection، نه segmentation، نه انتخاب معماری؛ برای کار پژوهشی جدی (اعتبارسنجی خارجی، k-fold) مناسب نیست؛ README خودش می‌گوید محصول رسمی گوگل نیست، یک آزمایش است؛ دسترسی/ذخیره در Drive از ایران تایید نشده. یک مقاله Q1 با آن هست (Pak و همکاران، J Imaging Inform Med ۲۰۲۶، Teachable Machine در برابر ResNet برای متاستاز استخوان — online ahead of print). |
 
 **بدون ریپوی عمومی، ولی در همین حوزه:** دیتابیس‌های رایگان AlphaFold DB، ClinVar، gnomAD v4، TCGA (GDC)، CDC WONDER و PhysioNet سرویس وب‌اند، نه ریپو — بریفشان: `free-medical-research-databases-brief-fa.md`.
 
@@ -55,6 +56,7 @@
 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) ✓ | ۳۸٬۶۰۰ | Apache-2.0 | اتوماسیون مرورگر با Playwright برای ایجنت. |
 | [github/github-mcp-server](https://github.com/github/github-mcp-server) ✓ | ۳۳٬۹۰۰ | MIT | MCP سرور رسمی گیت‌هاب. |
 | [google-antigravity/antigravity-sdk-python](https://github.com/google-antigravity/antigravity-sdk-python) ✓ | — | — | SDK رسمی پایتون Antigravity. |
+| [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) ✓ | ۷۲٬۴۲۱ (۲۱ نوامبر) | AGPL-3.0 | Free Claude Code (FCC): پروکسی لوکال که هارنس‌های کدنویسی (Claude Code، Codex، Antigravity CLI با `fcc-agy`، VS Code و ۸ تای دیگر) را به ۶۱ پرووایدر وصل می‌کند؛ ادعای ۱٫۳ میلیارد توکن رایگان در ماه مجموع سقف‌های رایگان پرووایدرهاست، نه یک استخر واحد. اصلاح مهم: مدل واقعی Claude آنتروپیک رایگان نیست — بدون کلید API پولی آنتروپیک، نام‌های Opus/Sonnet/Haiku به مدل‌های دیگر (مثلاً NVIDIA NIM، Groq، Gemini) روت می‌شوند. نصب ویندوز با اسکریپت PowerShell؛ دسترسی پرووایدرها از ایران تایید نشده. |
 
 ---
 
@@ -68,7 +70,7 @@
 | [adithya-s-k/manim_skill](https://github.com/adithya-s-k/manim_skill) ✓ | — | — | اسکیل ایجنتی Manim. |
 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) ✓ | ۱۴٬۷۵۶ (۱۱ نوامبر) | MIT | Opuscar — ۶۶ استایل (فرمول‌های استایل برای Opus 5.5 تنظیم شده‌اند). |
 | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) ✓ | ۱۴٬۸۵۰ (۱۱ نوامبر) | MIT | مجموعه ~۷۰۳ پرامپت ویدیوی Opus 5.5 (Prompt-Motion). |
-| [mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts) ✓ | ۳٬۲۴۸ (۱۴ نوامبر) | MIT | شورت داستانی ۵۵–۷۰ ثانیه‌ای؛ three.js داخل Remotion. خیلی تازه (۱ نوامبر) و تک‌کامیت. |
+| [mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts) ✓ | ۴٬۲۹۹ (۲۰ نوامبر) | MIT | شورت داستانی ۵۵–۷۰ ثانیه‌ای؛ three.js داخل Remotion. خیلی تازه (۱ نوامبر)، حالا ۲ کامیت. ریل دوم @metaincome.ir در ۱۹ نوامبر همان ابزار را تبلیغ کرد. |
 | [alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle) ✓ | ~۱٬۲۰۹ | Apache-2.0 | انیمیشن doodle/وایت‌برد. |
 | [JohnHeibel/ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase) ✓ | ~۱٬۶۷۳ | MIT | بیس انیمیشن Claude. |
 | [Leonxlnx/cinetic](https://github.com/Leonxlnx/cinetic) ✓ | — | MIT | ابزار ویدیوی سینمایی با کد. |
@@ -104,7 +106,7 @@
 | [obra/superpowers](https://github.com/obra/superpowers) | ۳۱۵٬۶۹۷ | MIT | متدولوژی توسعه: طوفان فکری، پلن، TDD، بازبینی. |
 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ۱۹۰٬۵۷۱ | MIT | Claude Code کد خیلی کمتری می‌نویسد؛ نیاز به SessionStart hook. |
 | [morluto/rea](https://github.com/morluto/rea) | ۴۵۸٬۵۹۶ | MIT | Reverse Engineer Anything — از رفتار اپ تا باینری نیتیو. کمترین ربط به کارت. |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | ۱۴۷٬۴۵۳ | Apache-2.0 | کدبیس را به گراف دانش قابل‌پرس‌وجو تبدیل می‌کند — برای کدبیس Go بازی منچ. نصب PyPI با `graphifyy` (دو y). |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | ۱۵۱٬۵۱۱ (۲۱ نوامبر ۲۰۲۶) | Apache-2.0 | کدبیس را به گراف دانش قابل‌پرس‌وجو تبدیل می‌کند — برای کدبیس Go بازی منچ. نصب PyPI با `graphifyy` (دو y). **Antigravity رسماً پشتیبانی می‌شود: `graphify antigravity install` (روی ویندوز خودکار).** |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | ۱۱۵٬۲۹۲ | MIT | وب‌سایت‌هایی که شبیه ساخته AI نیستند. |
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | ۱۰۹٬۸۷۳ | Apache-2.0 | واژگان دیزاین برای ایجنت؛ صراحتاً Antigravity را پشتیبانی می‌کند. انتخاب اول برای سایت پورتفولیو. |
 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | ۶۹٬۱۳۳ | MIT | ممیزی امنیتی شش‌مرحله‌ای. قید: issue باز #۱۱ می‌گوید Antigravity ساب‌ایجنت‌ها را می‌کشد. |
@@ -153,6 +155,8 @@
 | ریپو | ستاره (تاریخ بررسی) | لایسنس | چیست |
 |---|---|---|---|
 | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) ✓ | ۲۰٬۵۴۰ (۲۰ نوامبر) | GPL-2.0 | قفل نصف‌سرعت تنسور کورهای GeForce را موقع بوت برمی‌دارد: FP16/BF16/TF32 با انباشت FP32 تا ۲ برابر؛ در کار واقعی پیش‌پردازش LLM ‏+۲۵–۵۵٪، فاین‌تیون ‏+۲۵–۵۰٪، ساخت عکس ‏+۳۰–۵۵٪. RTX 30 پایدار، RTX 20/40 تجربی، RTX 50 پشتیبانی نمی‌شود. **فقط لینوکس** — برای ویندوز (که تو داری) مستقیم به کار نمی‌آید؛ و برای مدل‌های کوانتایز Ollama فقط ۰ تا ۱۵٪ سود دارد. قید: دور زدن محدودیت vendor — ریسک EULA/گارانتی. |
+| [MiniMax-AI/MiniMax-H3](https://github.com/MiniMax-AI/MiniMax-H3) ✓ | — (۲۱ نوامبر) | MiniMax H3 Community License | مدل ویدیوساز MiniMax H3 (Hailuo 03) — وزن‌های باز از ۳ اوت ۲۰۲۶؛ ویدیو + صدای استریو هم‌زمان، کلیپ ۴–۱۵ ثانیه‌ای، ۲۴ فریم، ضلع کوتاه ۷۶۸ پیکسل (2K فقط ابری)؛ حالت Ref2VA با تا ۹ تصویر مرجع برای ثبات شخصیت بین شات‌ها — مناسب بازسازی ویدیوی Medtoon. ComfyUI از 0.30.0 داخلی؛ کوانت GGUF از ۱۱٫۴ گیگابایت؛ کارت ۸ گیگابایتی ≈ ۹–۱۰ دقیقه برای هر کلیپ ۵ ثانیه‌ای، کف عملی ۱۲ گیگابایت + ۳۲ گیگ رم. لایسنس: تجاری آزاد زیر ۲۰ میلیون دلار؛ آمریکا/اتحادیه اروپا/بریتانیا/کره مستثنی‌اند، ایران نیست. وزن‌ها در Hugging Face: MiniMaxAI/MiniMax-H3. دیالوگ فارسی در ۱۱ زبان پایدار نیست. |
+| [MiniMax-AI/awesome-minimax-h3-integration](https://github.com/MiniMax-AI/awesome-minimax-h3-integration) ✓ | — (۲۱ نوامبر) | — | کاتالوگ رسمی کامیونیتی H3 (نگهداری MiniMax): دیستیل‌های چندمرحله‌ای (FastH3، Sol-H3)، کوانت‌ها، نودهای ComfyUI و مسیرهای اجرای لوکال روی ۸ تا ۲۴ گیگابایت VRAM. |
 | [impacifist/Windows-GPU-UNLOCK](https://github.com/impacifist/Windows-GPU-UNLOCK) ⚠ | — | — | پورت ویندوزی ثالثِ gpu-unlock؛ تجربی، فقط ترکیب‌های خاص GPU و مادربرد. بررسی نشده — خود سازنده اصلی درباره اینستالرهای ویندوزی هشدار می‌دهد. |
 
 ## ۱۱. دایجست هفتگی Antigravity — فهرست جداگانه، اینجا تکرار نشده
@@ -162,7 +166,17 @@
 - `~/workspace/your_files/antigravity-digest/2026-11-07-*.md`
 - `~/workspace/your_files/antigravity-digest/2026-11-14-*.md`
 
-در کل فایل‌های کاری‌ات **۳۶۵ ریپوی یکتا** اسم برده شده (بیشترشان از همین دایجست‌ها)؛ آن‌هایی که به حوزه‌ات مربوط‌اند، در بخش‌های ۱ تا ۹ بالا آمده‌اند. اگر خواستی، همان ۱۱۰ ابزار دایجست را هم می‌توانم با همین فرمت طبقه‌بندی کنم.
+در کل فایل‌های کاری‌ات **۳۶۵ ریپوی یکتا** اسم برده شده (بیشترشان از همین دایجست‌ها)؛ آن‌هایی که به حوزه‌ات مربوط‌اند، در بخش‌های ۱ تا ۱۰ و ۱۲ بالا آمده‌اند. اگر خواستی، همان ۱۱۰ ابزار دایجست را هم می‌توانم با همین فرمت طبقه‌بندی کنم.
+
+---
+
+## ۱۲. مدل‌سازی سه‌بعدی و فوتوگرامتری
+
+| ریپو | ستاره (تاریخ بررسی) | لایسنس | چیست |
+|---|---|---|---|
+| [cdcseacave/openMVS](https://github.com/cdcseacave/openMVS) ✓ | ۴٬۱۹۹ (۲۰ نوامبر) | AGPL-3.0 | کتابخانه متن‌باز Multi-View Stereo: از موقعیت دوربین + ابر نقطه پراکنده، ابر متراکم ← مش ← تصفیه ← بافت می‌سازد. بالغ (از ۲۰۱۵)، ویندوز پشتیبانی می‌شود (باینری CI). قید: به‌تنهایی از عکس خام مدل نمی‌سازد — مرحله SfM (OpenMVG/COLMAP) قبلش لازم است؛ AGPL-3.0 برای سرویس شبکه‌ای کپی‌لفت دارد. ربط: ساخت است از اشیا/محیط واقعی برای پروژه شبیه‌سازی Unreal. |
+| [alicevision/meshroom](https://github.com/alicevision/meshroom) ✓ | — | MPL-2.0 | جایگزین راحت‌تر برای شروع: اپ دسکتاپ رایگان با رابط نودی که کل زنجیره فوتوگرامتری (SfM + MVS) را از عکس خام انجام می‌دهد؛ اینستالر ویندوز (نسخه 2025.1.0)، خروجی OBJ/PLY برای Blender و Unreal. قید: مرحله متراکم به GPU انویدیا با CUDA نیاز دارد. |
+| [arjun988/blender-skills](https://github.com/arjun988/blender-skills) ✓ | ۴٬۴۶۷ (۲۰ نوامبر) | MIT | ۹۴ اسکیل تخصصی بلندر برای ایجنت‌های کدنویسی (Cursor، Claude Code، Kiro، Codex) با اجرای مستقیم داخل بلندر از طریق MCP — از بلاک‌اوت تا خروجی موتور (Unreal/Unity/Godot). اسکیل blender-director درخواست را به زنجیره اسکیل‌ها می‌فرستد؛ «مطابقت با تصویر مرجع» هم دارد. قید: Antigravity در فهرست نیست (نصب تست‌نشده)؛ مارکت‌پلیس Anthropic در دست بررسی؛ بلندر + افزونه BlenderMCP + uv لازم است. ربط مستقیم: خط لوله بلندر ← Unreal برای پروژه شبیه‌سازی. |
 
 ---
 
