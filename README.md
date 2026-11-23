@@ -60,6 +60,7 @@
 | [google-antigravity/antigravity-sdk-python](https://github.com/google-antigravity/antigravity-sdk-python) ✓ | — | — | SDK رسمی پایتون Antigravity. |
 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) ✓ | ۷۲٬۴۲۱ (۲۱ نوامبر) | AGPL-3.0 | Free Claude Code (FCC): پروکسی لوکال که هارنس‌های کدنویسی (Claude Code، Codex، Antigravity CLI با `fcc-agy`، VS Code و ۸ تای دیگر) را به ۶۱ پرووایدر وصل می‌کند؛ ادعای ۱٫۳ میلیارد توکن رایگان در ماه مجموع سقف‌های رایگان پرووایدرهاست، نه یک استخر واحد. اصلاح مهم: مدل واقعی Claude آنتروپیک رایگان نیست — بدون کلید API پولی آنتروپیک، نام‌های Opus/Sonnet/Haiku به مدل‌های دیگر (مثلاً NVIDIA NIM، Groq، Gemini) روت می‌شوند. نصب ویندوز با اسکریپت PowerShell؛ دسترسی پرووایدرها از ایران تایید نشده. |
 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) ✓ | ۱۳٬۲۵۹ (۲۳ نوامبر) | MIT | «نسخه متن‌باز Grok Bot»: همکارهای AI با کامپیوتر اختصاصی (مرورگر و لاگین و فایل جدا)، گیت‌وی fail-closed که هر اقدام را قبل از اجرا تصمیم می‌گیرد و بعد ثبت می‌کند، «take the wheel» برای تحویل کنترل به انسان، و هر ایجنت AG-UI (نه قفل‌شده به یک فریم‌ورک). قید: آلفا (v0.0.1)؛ «۱۰۰٪ رایگان» پست درست نیست — کد MIT است ولی اجرا به لایسنس CopilotKit Intelligence و کلید مدل (پولی) نیاز دارد؛ نصب ویندوز با Docker + Bun 1.3 تست نشده؛ ربط: لایه حاکمیت/ارکستراسیون برای ایجنت‌های Antigravity Studio، نه جایگزین Claude Code. |
+| [botpress/botpress](https://github.com/botpress/botpress) ✓ | ۱۵٬۰۰۶ (۲۴ نوامبر ۲۰۲۶) | MIT | هاب متن‌باز ساخت و دیپلوی ایجنت‌های GPT/LLM — پلتفرم چت‌بات/ایجنت. از لیست «۹۹ پروژه» @sarveshthakur.ai. |
 
 ---
 
@@ -140,6 +141,7 @@
 | [android/nowinandroid](https://github.com/android/nowinandroid) ✓ | ۲۲٬۰۶۸ (۱۰ نوامبر) | Apache-2.0 | اپ مرجع رسمی تیم اندروید گوگل — الگوی معماری برای اپ منچ. |
 | [skydoves/nowinandroid-kmp](https://github.com/skydoves/nowinandroid-kmp) ✓ | — | — | پورت Kotlin Multiplatform همان اپ (کار جامعه، نه گوگل): یک کدبیس، اندروید/iOS/دسکتاپ/وب. |
 | [xtool-org/xtool](https://github.com/xtool-org/xtool) ✓ | ~۱۴٬۰۰۰ | MIT | ساخت اپ iOS با Swift بدون مک — Swift CLI که SwiftPM را به اپ امضاشده تبدیل می‌کند و با USB روی آیفون نصب می‌کند. قید: دانلود یک‌باره Xcode.xip برای SDK لازم است؛ ویندوز یعنی WSL + USBIPD، نه نیتیو؛ اپ با Apple ID رایگان بعد از ۷ روز منقضی می‌شود؛ بدون App Store. |
+| [lichess-org/lila](https://github.com/lichess-org/lila) ✓ | ۱۹٬۰۱۴ (۲۴ نوامبر ۲۰۲۶) | AGPL-3.0 | سرور شطرنج lichess.org — مرجع معماری بازی چندنفره زنده (وب‌سوکت، حالت نوبت، تطبیق بازیکن) برای بک‌اند Go منچ. از لیست «۹۹ پروژه» @sarveshthakur.ai. |
 
 ---
 
