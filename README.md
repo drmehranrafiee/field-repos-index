@@ -109,7 +109,7 @@
 | [obra/superpowers](https://github.com/obra/superpowers) | ۳۱۵٬۶۹۷ | MIT | متدولوژی توسعه: طوفان فکری، پلن، TDD، بازبینی. |
 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ۱۹۰٬۵۷۱ | MIT | Claude Code کد خیلی کمتری می‌نویسد؛ نیاز به SessionStart hook. |
 | [morluto/rea](https://github.com/morluto/rea) | ۴۵۸٬۵۹۶ | MIT | Reverse Engineer Anything — از رفتار اپ تا باینری نیتیو. کمترین ربط به کارت. |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | ۱۵۱٬۵۱۱ (۲۱ نوامبر ۲۰۲۶) | Apache-2.0 | کدبیس را به گراف دانش قابل‌پرس‌وجو تبدیل می‌کند — برای کدبیس Go بازی منچ. نصب PyPI با `graphifyy` (دو y). **Antigravity رسماً پشتیبانی می‌شود: `graphify antigravity install` (روی ویندوز خودکار).** |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | ۱۵۲٬۳۹۴ (۲۳ نوامبر ۲۰۲۶) | Apache-2.0 | کدبیس را به گراف دانش قابل‌پرس‌وجو تبدیل می‌کند — برای کدبیس Go بازی منچ. نصب PyPI با `graphifyy` (دو y). **Antigravity رسماً پشتیبانی می‌شود: `graphify antigravity install` (روی ویندوز خودکار).** آخرین نسخه v0.9.118 (۲۳ نوامبر ۲۰۲۶). قید: ادعای صرفه‌جویی توکن در ریل‌ها اندازه‌گیری نشده؛ گراف جایگزین خواندن کد نیست، برای پرس‌وجوی اتصالات است. |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | ۱۱۵٬۲۹۲ | MIT | وب‌سایت‌هایی که شبیه ساخته AI نیستند. |
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | ۱۰۹٬۸۷۳ | Apache-2.0 | واژگان دیزاین برای ایجنت؛ صراحتاً Antigravity را پشتیبانی می‌کند. انتخاب اول برای سایت پورتفولیو. |
 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | ۶۹٬۱۳۳ | MIT | ممیزی امنیتی شش‌مرحله‌ای. قید: issue باز #۱۱ می‌گوید Antigravity ساب‌ایجنت‌ها را می‌کشد. |
