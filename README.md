@@ -31,6 +31,7 @@
 | [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra) ✓ | ۵٬۱۱۱ / ۶۴۱ فورک (۲۰ نوامبر) | Apache-2.0 | فریم‌ورک ۵ ایجنت گوگل (Google Cloud AI Research) که ایده + لاگ آزمایش را به دست‌نوشته LaTeX تبدیل می‌کند؛ نکته جدیدش **رجیستری ارجاع تاییدشده با Semantic Scholar API** است — دقیقاً الگویی که در مرور HFpEF لازم داری. مقاله arXiv:2604.05018. قید: فقط ۸ کامیت، ۰ ریلیز، دیتاست در ریپو نیست، کلید API (Gemini/Vertex یا OpenAI) می‌خواهد، و «محصول رسمی گوگل» نیست. |
 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) ✓ | ۵۶٬۴۵۷ (۱۱ نوامبر) | ⚠ تعارض لایسنس — README می‌گوید CC BY-NC 4.0 ولی متادیتای گیت‌هاب NOASSERTION؛ پیش از استفاده فراتر از شخصی، LICENSE را چک کن | سوئیت پژوهش آکادمیک: Deep Research (۸ حالت، از جمله مرور سیستماتیک/PRISMA)، Academic Paper (۱۱ حالت، APA/IEEE/…/LaTeX)، Academic Paper Reviewer (۶ حالت)، Academic Pipeline (ارکستراتور ۱۰ مرحله‌ای) + **SR-Screener v1.0.0** — گزینه سوم غربال مرور سیستماتیک برای HFpEF، کنار Bango و Collie. قید: نصب Antigravity تایید نشده؛ هزینه توکن سنگین (یک ران کامل Pipeline می‌تواند بالای ۲۰۰K ورودی + ۱۰۰K خروجی توکن باشد). |
 | [Aukexecutivedepartment5152/PaperOrchestra](https://github.com/Aukexecutivedepartment5152/PaperOrchestra) ⚠ | — | — | **اسکیل‌پک ثالث (مال گوگل نیست)** که پرامپت‌های PaperOrchestra را به اسکیل ایجنتی برای Claude Code / Cursor / Antigravity تبدیل می‌کند؛ بدون کلید API داخلی. تست نشده. |
+| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) ✓ | ۷۹٬۵۳۵ (۲۵ نوامبر ۲۰۲۶) | AGPL-3.0 | AppFlowy — جایگزین لوکال‌فرست Notion: نوت، سند، ویکی، بورد پروژه + مدل‌های AI لوکال؛ داده‌هات دست خودت می‌ماند. از ریل «۸ ابزار متن‌باز» @navidamirnejat. فضای کاری پژوهش (MDD، HFpEF، AdipoTarget) به‌جای Notion. |
 
 **بدون ریپوی عمومی، ولی در همین بخش:**
 - **Bango** — غربال AI مرور سیستماتیک، لوکال‌فرست، رایگان، Apache 2.0، دسکتاپ ویندوز/macOS/لینوکس؛ سایت bango.boncode.net؛ MCP/API/CLI ندارد، ارزشش بالادست با خروجی فایل است.
@@ -97,9 +98,10 @@
 | ریپو | ستاره (تاریخ بررسی) | لایسنس | چیست |
 |---|---|---|---|
 | [nota-daw/nota](https://github.com/nota-daw/nota) ✓ | ۴۵۱ (۱۴ نوامبر) | AGPL-3.0 | Nota — DAW رایگان، بدون حساب، ~۳۵ ساز/افکت داخلی، VST3، کنترل با موبایل از طریق QR، اینستالر ویندوز x64. سرور MCP داخلی (loopback، پیش‌فرض خاموش) برای کنترل با ایجنت. خیلی تازه (اوت ۲۰۲۶، نسخه 0.60.1). |
-| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) ✓ | — | — | VoiceStudio — ژنراتور صدای AI رایگان با کلون صدا (از ریل @saeedkhorsandi0). |
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) ✓ | ۱۱۸٬۱۳۶ (۲۵ نوامبر ۲۰۲۶) | — | VoiceStudio — ژنراتور صدای AI رایگان با کلون صدا (از ریل @saeedkhorsandi0)؛ جایگزین کاملاً لوکال ElevenLabs: کلون صدا، دوبله ویدیو، دیکته، ترنسکریپشن در ۶۴۶ زبان. قید: کیفیت فارسی تست نشده؛ اجرای لوکال GPU می‌خواهد. |
 | [boson-ai/higgs-audio](https://github.com/boson-ai/higgs-audio) ✓ | — | — | Higgs Audio v3 — TTS مکالمه‌ای Boson AI؛ فارسی در بالاترین سطح کیفی (خطا زیر ۵٪)؛ Creator Use Grant برای استفاده درآمدزا با ذکر منبع. از دایجست ۱۴ نوامبر. |
 | [cjpais/Handy](https://github.com/cjpais/Handy) ✓ | ۴۰٬۱۵۳ (۲۵ نوامبر ۲۰۲۶) | MIT | Handy — دیکته speech-to-text کاملاً آفلاین و متن‌باز (Tauri v2، کراس‌پلتفرم)؛ جایگزین Wispr Flow. از کاروسل «۵ ابزار رایگان» @wiseversity. قید: «۳ برابر سریع‌تر» بازاریابی است؛ پشتیبانی از فارسی تأیید نشده — قبل از اتکا تست کن. تنها ابزار این لیست که واقعاً رایگانِ قابل‌اجراست (بدون اشتراک، بدون اینترنت). |
+| [Knuckles92/OpenWhisper](https://github.com/Knuckles92/OpenWhisper) ✓ | ۲۹۷ (۲۵ نوامبر ۲۰۲۶) | — | Open Whisper — اپ دسکتاپ دیکته لوکال‌فرست (ویندوز/مک/لینوکس): Parakeet، Whisper، Qwen3-ASR، با MCP و یادداشت جلسه. از ریل «۸ ابزار متن‌باز» @navidamirnejat. قید: ریپوی خیلی کوچک (۲۹۷ استار)؛ Handy انتخاب جاافتاده‌تر برای دیکته است. |
 
 ---
 
@@ -136,6 +138,10 @@
 | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) ✓ | ۷٬۱۱۵ (۲۴ نوامبر ۲۰۲۶) | MIT | ۱۱ اسکیل Claude Code برای کانال یوتیوب (از ریل @ai.nxtlvl، ۵ اکتبر): اسکریپت از ۲۱ فرمول هوک با امتیازدهی (`/yt-script`)، تیتر+تامنیل (`/yt-package`)، فهرست ادیت از ترنسکریپت (`/yt-edit`)، پیش‌نویس پاسخ کامنت (`/yt-comment`)، پلن هفتگی، وایرال بر اساس چندبرابر میانه خود کانال، retention، Shorts، SEO، فصل‌بندی و آدیت — + ۶ ابزار پایتون بدون وابستگی. **قید: هیچ‌چیز منتشر نمی‌کند** — می‌نویسد، تو آپلود می‌کنی؛ ویدیو را ادیت و تامنیل را طراحی نمی‌کند؛ `hookscore.py` پیش‌بینی‌کننده نیست؛ نصب Antigravity تایید نشده؛ ریپو فقط یک کامیت دارد (۱۶ سپتامبر ۲۰۲۶). ربط: کانال یوتیوب نداری، ولی `/yt-script` و `/yt-viral` برای محتوای دارویی قابل اقتباس‌اند؛ اگر با پرامپت Codex نصب می‌کنی، فقط زیرمجموعه را بردار (سقف ۳۰ اسکیل). |
 | [Mahanaicoach/google-maps-scraper-kit](https://github.com/Mahanaicoach/google-maps-scraper-kit) ✓ | ۲٬۳۰۴ | MIT | اسکرپر Google Maps؛ سقف ~۱۲۰ نتیجه برای هر جستجو (سقف گوگل). |
 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) ✓ | ۴۰٬۰۳۱ (۲۵ نوامبر ۲۰۲۶) | MIT | Open Screen — ضبط صفحه با زوم خودکار و کپشن؛ جایگزین Screen Studio. از کاروسل «۵ ابزار رایگان» @wiseversity. **قید: ریپو آرشیو شده و دیگر نگهداری نمی‌شود** — برای نصب تازه توصیه نمی‌شود. نسخه فعالِ ادامه‌دار: [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen) (۸٬۰۵۲ استار، پوش ۲۵ نوامبر ۲۰۲۶، ویندوز/مک/لینوکس، GPU-accelerated). |
+| [every-app/open-seo](https://github.com/every-app/open-seo) ✓ | ۲۸٬۸۷۰ (۲۵ نوامبر ۲۰۲۶) | — | Open SEO — جایگزین متن‌باز Semrush/Ahrefs: تحقیق کلمه کلیدی، ردیابی رتبه، بک‌لینک، آدیت؛ MCP سرور + اسکیل‌های ایجنتی برای Claude Code/Codex. از ریل «۸ ابزار متن‌باز» @navidamirnejat. **قید: داده پولی است** — کلید DataForSEO با pay-as-you-go لازم دارد؛ نسخه هاست‌شده ۱۰ دلار/ماه. ریپو تازه (فوریه ۲۰۲۶). |
+| [calcom/cal.diy](https://github.com/calcom/cal.diy) ✓ | ۵۰٬۳۸۳ (۲۵ نوامبر ۲۰۲۶) | — | Cal.diy — زیرساخت زمان‌بندی متن‌باز (همان cal.com با نام تازه): برنامه‌ریزی روز، ست کردن جلسه، سینک با گوگل کلندر و اوتلوک. از ریل «۸ ابزار متن‌باز» @navidamirnejat. فعلاً کم‌ربط — وقتی مشتری فریلنس داشتی. |
+| [CapSoftware/Cap](https://github.com/CapSoftware/Cap) ✓ | ۲۵٬۵۷۸ (۲۵ نوامبر ۲۰۲۶) | ⚠ NOASSERTION | Cap — جایگزین متن‌باز Loom: ضبط صفحه زیبا و قابل‌اشتراک. از ریل «۸ ابزار متن‌باز» @navidamirnejat. قید: لایسنس ثبت‌نشده — پیش از استفاده تجاری چک کن. نسخه زنده و فعال در برابر Open Screen آرشیوشده. |
+| [opf/openproject](https://github.com/opf/openproject) ✓ | ۱۷٬۷۲۵ (۲۵ نوامبر ۲۰۲۶) | — | OpenProject — مدیریت پروژه متن‌باز پیشرو (جایگزین Jira/Asana): پلن اجایل، گانت، رودمپ، تایم‌ترکینگ؛ سلف‌هست یا ابری؛ از ۲۰۱۲. از ریل «۸ ابزار متن‌باز» @navidamirnejat. برای مدیریت پروژه‌های فریلنس و پورتفولیو. |
 
 ---
 
@@ -154,7 +160,7 @@
 
 | ریپو | ستاره (تاریخ بررسی) | لایسنس | چیست |
 |---|---|---|---|
-| [anil-matcha/Open-Generative-AI](https://github.com/anil-matcha/Open-Generative-AI) ✓ | ۳۴٬۱۸۶ (۱۲ نوامبر) | MIT | استودیوی متن‌باز ۶۰۰+ مدل؛ تولید پولی است (MuAPI، pay-as-you-go). عدد «~۳۲ هزار ستاره» در ریل‌ها مال همین ریپو است. |
+| [anil-matcha/Open-Generative-AI](https://github.com/anil-matcha/Open-Generative-AI) ✓ | ۳۶٬۲۲۲ (۲۵ نوامبر ۲۰۲۶) | MIT | استودیوی متن‌باز ۸۰۰+ مدل؛ تولید پولی است (MuAPI، pay-as-you-go)؛ «بدون فیلتر محتوا». عدد «~۳۲ هزار ستاره» در ریل‌ها مال همین ریپو است. از ریل «۸ ابزار متن‌باز» @navidamirnejat هم تأیید شد (جایگزین Higgsfield). |
 | [Autom8AI/Open-Higgsfield-AI](https://github.com/Autom8AI/Open-Higgsfield-AI) ✓ | ۲٬۸۵۸ | ⚠ هیچ لایسنسی ثبت نشده (README ادعای MIT می‌کند) | فورک ریپوی بالایی؛ برای استفاده تجاری به anil-matcha تکیه کن، نه این. |
 | [wide-trace/open-higgsfield](https://github.com/wide-trace/open-higgsfield) ✓ | ۵٬۷۲۷ | ⚠ لایسنس ندارد | به API پولی خود Higgsfield وصل می‌شود؛ آخرین کامیت ۱۷ سپتامبر ۲۰۲۶. |
 
