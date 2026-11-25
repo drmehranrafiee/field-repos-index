@@ -1,6 +1,6 @@
 # فهرست ریپوهای گیت‌هابِ حوزه تو — طبقه‌بندی‌شده
 
-**تاریخ فهرست:** ۲۴ نوامبر ۲۰۲۶
+**تاریخ فهرست:** ۲۵ نوامبر ۲۰۲۶
 **منبع:** همه لینک‌هایی که تا امروز فرستادی + همه بریف‌هایی که برایت ساختم (your_files، فایل‌های دایجست، و MEMORY). فقط ریپوهایی آمده که **ریپوی واقعی گیت‌هاب** دارند؛ ابزارهای بدون ریپوی عمومی (مثل Bango و Collie) جداگانه در انتهای هر بخش آمده‌اند.
 **نکته ستاره‌ها:** عدد ستاره، همان عددی است که در روز بررسی هر بریف از GitHub API خوانده شد — امروز دوباره چک نشده، مگر PaperOrchestra که ۲۰ نوامبر چک شد. پس ستاره‌ها «تاریخ‌دار» اند، نه لحظه‌ای.
 **وضعیت:** ✓ = مستقیم از GitHub API یا صفحه ریپو بررسی شده · ⚠ = نام/کارکرد از اسلاید پست نقل شده و ریپو تک‌تک باز نشده · ✗ = ریپوی عمومی ندارد
@@ -15,6 +15,7 @@
 | [openscientist-io/openscientist](https://github.com/openscientist-io/openscientist) ✓ | ۹۸ (۱۸ نوامبر) | Apache-2.0 | همکار علمی ایجنتی متن‌باز (دانشگاه واشنگتن در سنت‌لوئیس، Broad، برکلی)، مقاله Nature Medicine ۱۶ نوامبر ۲۰۲۶. روی کتابخانه K-Dense سوار است؛ با Claude Code ساخته شده و در مقاله از Claude Sonnet 4.5 استفاده شده. قید: خودهاستی رایگان نیست (Docker + اعتبار ارائه‌دهنده مدل)؛ ارزیابی فقط ۵ مطالعه موردیِ خود تیم است، بدون اعتبارسنجی مستقل. |
 | [ml4bio/RhoAgent](https://github.com/ml4bio/RhoAgent) ✓ | ۵ (۲۳ نوامبر) | Apache-2.0 | «دانشمند مجازی» طراحی RNA — مقاله Nature Biotechnology ۱۹ نوامبر ۲۰۲۶ (Huang و همکاران؛ Yu Li و James Collins). ایجنت Qwen3-235B کاندیدای RNA را طراحی می‌کند و با بازخورد آزمایشگاهی اصلاحش می‌کند: برش ریبوزایم تا ۶ برابر، فلورسانس آپتامر ۲۳۰٪ بهتر. ربط: الگوی حلقه طراحی–آزمایش برای AdipoTarget Scout و کارهای RNA؛ قید: همه‌چیز در مقیاس آزمایشگاهی و روی چند اسکافولد است، نه کاندیدای درمانی؛ نصب و اجرا هنوز تست نشده. |
 | [ml4bio/RDiff](https://github.com/ml4bio/RDiff) ✓ | ۳ (۲۳ نوامبر) | MIT | موتور دیفیوژن مولد RhoAgent — تولید ساختار و توالی RNA با شرط تعامل‌های بازی و موتیف‌های عملکردی. همراه RhoAgent منتشر شده؛ به‌تنهایی هم قابل استفاده است. |
+| [kevinlu4588/RumiFold](https://github.com/kevinlu4588/RumiFold) ✓ | ۴ (۲۵ نوامبر) | Apache-2.0 | مدل چت Qwen3-8B که پروتئین را در حالت‌های پنهان خودش تا می‌کند و بعد با همان نمایش تاشده به سؤال درباره کارکرد پروتئین جواب می‌دهد — مقاله arXiv:2611.29444 (Lu، Bau و Jin، ۲۲ نوامبر ۲۰۲۶؛ خبر ابزارهای دایجست ۲۵ نوامبر). روی FoldBench ‏TM-score ‏۰٫۸۴۰، هم‌سطح SimpleFold 3B و زیر ESMFold (۰٫۸۷۱)؛ در پیش‌بینی Gene Ontology و توصیف کارکرد آزاد در سطح روز. ربط: الگوی «تا کن، بعد بپرس» برای AdipoTarget Scout و حاشیه‌نویسی کارکرد پروتئین‌های تازه؛ کد، داده و وزن‌ها عمومی‌اند. قید: فقط ساختار بک‌بون می‌دهد؛ پیش‌چاپ داوری‌نشده؛ و روی کارت تو اجرا نمی‌شود — README تست را روی GPU ‏۴۸ گیگابایتی انجام داده و انکودر ESM-C 6B به‌تنهایی ~۲۴ گیگابایت دانلود می‌خواهد؛ پس فعلاً «بخوان و الگو بگیر»، نه نصب و اجرا. |
 | [nrflynn2/ml-drug-discovery](https://github.com/nrflynn2/ml-drug-discovery) ✓ | — (همراه کتاب) | — | کد همراه کتاب *Machine Learning for Drug Discovery* — کتاب شماره ۱ فهرست ۵۰ کتاب ۲۰۲۵–۲۰۲۶ تو (امتیاز ۹۴). |
 | Arc Institute — antiGen و Germinal Multi ✓ (ابزار) | — | — | دو ابزار ۱۷ نوامبر ۲۰۲۶: antiGen پیش‌بینی جهش‌های آینده ویروس از درخت فیلوژنتیک؛ Germinal Multi طراحی یک آنتی‌بادی علیه چند واریانت. هر دو رایگان روی GitHub با دو پیش‌چاپ bioRxiv. **مسیر دقیق ریپو در بریف ثبت نشده** — از صفحه رسمی شروع کن: arcinstitute.org/news/antigen-and-germinal-multi. قید: پیش‌چاپ‌اند، نه داوری‌شده. |
 | [googlecreativelab/teachablemachine-community](https://github.com/googlecreativelab/teachablemachine-community) ✓ | ۱٬۷۵۱ (۲۰ نوامبر) | Apache-2.0 | کتابخانه‌های **Google Teachable Machine** — ابزار وب رایگان بدون‌کد برای طبقه‌بندی تصویر/صدا/ژست (transfer learning روی MobileNet و...). خروجی TF.js / TensorFlow / TFLite / Coral. ربط: پروتوتایپ سریع طبقه‌بندی تصویر پزشکی (مثلاً رادیوگرافی/تصویر سلولی) در چند دقیقه، بدون کد. قیدها: فقط طبقه‌بندی است — نه detection، نه segmentation، نه انتخاب معماری؛ برای کار پژوهشی جدی (اعتبارسنجی خارجی، k-fold) مناسب نیست؛ README خودش می‌گوید محصول رسمی گوگل نیست، یک آزمایش است؛ دسترسی/ذخیره در Drive از ایران تایید نشده. یک مقاله Q1 با آن هست (Pak و همکاران، J Imaging Inform Med ۲۰۲۶، Teachable Machine در برابر ResNet برای متاستاز استخوان — online ahead of print). |
@@ -83,6 +84,7 @@
 | [mutonby/openshorts](https://github.com/mutonby/openshorts) ✓ | ۹٬۰۰۸ (۱۸ نوامبر) | MIT | کلیپ‌ساز AI از ویدیوی بلند: faster-whisper → PySceneDetect → Gemini 3.1 Flash-Lite → FFmpeg + MediaPipe/YOLOv8 ری‌فریم ۹:۱۶. MCP سرور داخلی با ۸ ابزار؛ Windows = Docker Desktop + WSL2. قید: کلید Gemini لازم دارد؛ امتیازدهی فارسی و رندر RTL تایید نشده. |
 | [hkuds/videorag](https://github.com/hkuds/videorag) ✓ | ۳٬۵۲۰ (۱۰ نوامبر) | ⚠ NOASSERTION | VideoRAG (HKUDS، مقاله KDD 2026): از ویدیو سوال بپرس، جواب با ارجاع تایم‌استمپ بگیر؛ Vimo Desktop اپ دسکتاپی روی همین فریم‌ورک است. |
 | [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) ✓ | — | — | فهرست ۱۸۰ ریپوی اسکیل ویدیویی Claude (در زمان پست؛ از آن موقع بزرگ‌تر شده). |
+| [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) ✓ | ۸۳٬۲۱۵ (۲۵ نوامبر ۲۰۲۶) | AGPL-3.0 | نخستین سیستم تولید ویدیوی ایجنتیک متن‌باز: ۱۲ پایپ‌لاین، ۱۰۰+ ابزار، ۷۰۰+ فایل اسکیل؛ بر پایه Remotion. از کاروسل «۵ ابزار رایگان» @wiseversity. **قید: AGPL-3.0 کپی‌لفت است** (ساخت سرویس روی آن تعهد افشای سورس دارد)؛ اجرای پایپ‌لاین‌ها اشتراک پولی ایجنت (Claude Code Pro/Max یا Antigravity Pro/Ultra) می‌خواهد. مستقیم‌ترین ابزار ویدیویی این فهرست برای استک pure-code video تو. |
 
 **بدون ریپوی گیت‌هاب در این بخش:** manimvox (پکیج PyPI 0.5.0، MIT — یازده اسکیل ایجنتی، صدای پیش‌فرض Kokoro فارسی ندارد)؛ Skillry و Prompt-Motion (~۲۳۰ پرامپت) و Claude Animation Base در بریف‌های ویدیو آمده‌اند — Skillry و Prompt-Motion منبع پرامپت‌اند، نه ریپوی گیت‌هاب.
 
@@ -97,6 +99,7 @@
 | [nota-daw/nota](https://github.com/nota-daw/nota) ✓ | ۴۵۱ (۱۴ نوامبر) | AGPL-3.0 | Nota — DAW رایگان، بدون حساب، ~۳۵ ساز/افکت داخلی، VST3، کنترل با موبایل از طریق QR، اینستالر ویندوز x64. سرور MCP داخلی (loopback، پیش‌فرض خاموش) برای کنترل با ایجنت. خیلی تازه (اوت ۲۰۲۶، نسخه 0.60.1). |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) ✓ | — | — | VoiceStudio — ژنراتور صدای AI رایگان با کلون صدا (از ریل @saeedkhorsandi0). |
 | [boson-ai/higgs-audio](https://github.com/boson-ai/higgs-audio) ✓ | — | — | Higgs Audio v3 — TTS مکالمه‌ای Boson AI؛ فارسی در بالاترین سطح کیفی (خطا زیر ۵٪)؛ Creator Use Grant برای استفاده درآمدزا با ذکر منبع. از دایجست ۱۴ نوامبر. |
+| [cjpais/Handy](https://github.com/cjpais/Handy) ✓ | ۴۰٬۱۵۳ (۲۵ نوامبر ۲۰۲۶) | MIT | Handy — دیکته speech-to-text کاملاً آفلاین و متن‌باز (Tauri v2، کراس‌پلتفرم)؛ جایگزین Wispr Flow. از کاروسل «۵ ابزار رایگان» @wiseversity. قید: «۳ برابر سریع‌تر» بازاریابی است؛ پشتیبانی از فارسی تأیید نشده — قبل از اتکا تست کن. تنها ابزار این لیست که واقعاً رایگانِ قابل‌اجراست (بدون اشتراک، بدون اینترنت). |
 
 ---
 
@@ -115,9 +118,9 @@
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | ۱۰۹٬۸۷۳ | Apache-2.0 | واژگان دیزاین برای ایجنت؛ صراحتاً Antigravity را پشتیبانی می‌کند. انتخاب اول برای سایت پورتفولیو. |
 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | ۶۹٬۱۳۳ | MIT | ممیزی امنیتی شش‌مرحله‌ای. قید: issue باز #۱۱ می‌گوید Antigravity ساب‌ایجنت‌ها را می‌کشد. |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | ۶۷٬۶۰۷ | MIT | تحقیق ۳۰ روز اخیر در Reddit/X/YouTube/HN/Polymarket + وب. |
-| [blader/humanizer](https://github.com/blader/humanizer) | ۶۸٬۹۹۲ | MIT | حذف نشانه‌های نوشتار AI از متن — فقط انگلیسی. |
+| [blader/humanizer](https://github.com/blader/humanizer) | ۷۳٬۴۰۹ (۲۵ نوامبر ۲۰۲۶) | MIT | حذف نشانه‌های نوشتار AI از متن — فقط انگلیسی. |
 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | ۶۶٬۹۵۴ | MIT | دیاگرام ادیتوریال تمیز — **انتخاب اول برای فیگورهای مکانیسم دارو و شبکه MDD**. |
-| [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | ۵۴٬۷۱۸ | MIT | ۵۰ تم + کف کیفی سخت ضد AI-slop. |
+| [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | ۶۰٬۸۳۶ (۲۵ نوامبر ۲۰۲۶) | MIT | ۵۰ تم + کف کیفی سخت ضد AI-slop. |
 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | ۲۶٬۴۸۳ | MIT | ایده را به ماشین ایزومتریک تعاملی تبدیل می‌کند؛ README صراحتاً Antigravity را پشتیبانی می‌کند. یک فیگور ~۲ ساعت زمان ایجنت می‌برد. |
 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | ۱۰۲٬۶۵۰ | BSD-3-Clause | اسکرپینگ وب. |
 
@@ -132,6 +135,7 @@
 | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) ✓ | ۳٬۰۸۱ (۲۶ اکتبر) | MIT | اسکیل ایجنتی اینستاگرام؛ بدون ثبت‌نام، بدون API key، بدون اتصال به حساب. |
 | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) ✓ | ۷٬۱۱۵ (۲۴ نوامبر ۲۰۲۶) | MIT | ۱۱ اسکیل Claude Code برای کانال یوتیوب (از ریل @ai.nxtlvl، ۵ اکتبر): اسکریپت از ۲۱ فرمول هوک با امتیازدهی (`/yt-script`)، تیتر+تامنیل (`/yt-package`)، فهرست ادیت از ترنسکریپت (`/yt-edit`)، پیش‌نویس پاسخ کامنت (`/yt-comment`)، پلن هفتگی، وایرال بر اساس چندبرابر میانه خود کانال، retention، Shorts، SEO، فصل‌بندی و آدیت — + ۶ ابزار پایتون بدون وابستگی. **قید: هیچ‌چیز منتشر نمی‌کند** — می‌نویسد، تو آپلود می‌کنی؛ ویدیو را ادیت و تامنیل را طراحی نمی‌کند؛ `hookscore.py` پیش‌بینی‌کننده نیست؛ نصب Antigravity تایید نشده؛ ریپو فقط یک کامیت دارد (۱۶ سپتامبر ۲۰۲۶). ربط: کانال یوتیوب نداری، ولی `/yt-script` و `/yt-viral` برای محتوای دارویی قابل اقتباس‌اند؛ اگر با پرامپت Codex نصب می‌کنی، فقط زیرمجموعه را بردار (سقف ۳۰ اسکیل). |
 | [Mahanaicoach/google-maps-scraper-kit](https://github.com/Mahanaicoach/google-maps-scraper-kit) ✓ | ۲٬۳۰۴ | MIT | اسکرپر Google Maps؛ سقف ~۱۲۰ نتیجه برای هر جستجو (سقف گوگل). |
+| [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) ✓ | ۴۰٬۰۳۱ (۲۵ نوامبر ۲۰۲۶) | MIT | Open Screen — ضبط صفحه با زوم خودکار و کپشن؛ جایگزین Screen Studio. از کاروسل «۵ ابزار رایگان» @wiseversity. **قید: ریپو آرشیو شده و دیگر نگهداری نمی‌شود** — برای نصب تازه توصیه نمی‌شود. نسخه فعالِ ادامه‌دار: [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen) (۸٬۰۵۲ استار، پوش ۲۵ نوامبر ۲۰۲۶، ویندوز/مک/لینوکس، GPU-accelerated). |
 
 ---
 
